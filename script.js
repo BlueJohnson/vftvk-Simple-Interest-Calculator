@@ -25,7 +25,7 @@ function compute()
     var year = new Date().getFullYear()+parseInt(years);
     
     //condition: alert enter positive number if empty or value is 0
-    if (principal<=0 || principal== "" ){
+    if (principal <= 0 || principal== "" ){
         alert("Enter a positive number")
     }
     else{ 
