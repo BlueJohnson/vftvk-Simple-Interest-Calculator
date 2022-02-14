@@ -31,14 +31,14 @@ function compute()
     else{ 
     //get value and display  for principal
     var principal1 = document.getElementById("principal").value;
-    document.getElementById("principal1").innerHTML="If you deposit" + " " + principal1 +"," +"<br/>" ; 
+    document.getElementById("principal1").innerHTML="If you deposit" + " " + "<span>"+principal1+ "</span>" +"," +"<br/>" ; 
     //get value and display for rate 
     var rate1 = document.getElementById("rate").value;
-    document.getElementById("rate1").innerHTML="at an interest rate of" + " " + rate1 + "&#37"+ "." +"<br/>" ;
+    document.getElementById("rate1").innerHTML="at an interest rate of" + " " +  "<span>"+rate1  + "&#37"+"</span>"+ "." +"<br/>" ;
    
     //display value for reult and year
-    document.getElementById("result").innerHTML="You will receive an amount of" + " " + interest+ "," +"<br/>";
-    document.getElementById("year1").innerHTML="in the year" + " " + year+ "." +"<br/>";
+    document.getElementById("result").innerHTML="You will receive an amount of" + " " +"<span>"+ interest+"</span>" + "," +"<br/>";
+    document.getElementById("year1").innerHTML="in the year" + " " + "<span>" +year+ "</span>" +"." +"<br/>";
 }
 }
 
